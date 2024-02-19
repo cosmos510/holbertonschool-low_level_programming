@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void)
 {
     /*initialisation char*/
@@ -7,5 +6,5 @@ int main(void)
 
     puts(Hello_puts);
 
-    return(0);
+    return (0);
 }
