@@ -2,7 +2,7 @@
 
 int main(){
     /*initialisation char*/
-    char Hello_puts[] = "Programming is like building a multilingual puzzle\n";
+    char Hello_puts[] = "Programming is like building a multilingual puzzle\n;
     puts(Hello_puts);
 
     return 0;
