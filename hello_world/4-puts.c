@@ -7,5 +7,5 @@ int main(void)
 
     puts(Hello_puts);
 
-    return 0;
+    return(0);
 }
