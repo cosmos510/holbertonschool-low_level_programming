@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print number base 16
+* main - print combination number
 * Return: 0 if success
 */
 int main(void)
