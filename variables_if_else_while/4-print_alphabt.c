@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print alphabet
+* main - print alphabet missing letter
 * Return: 0 if success
 */
 int main(void)
