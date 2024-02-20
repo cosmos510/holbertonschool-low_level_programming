@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /* Print alphabet */
 /**
 * main - main fonction that prints the text
