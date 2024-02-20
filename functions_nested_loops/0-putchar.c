@@ -1,5 +1,5 @@
 #include "main.h"
-/* Print alphabet */
+/* Print _putchar */
 /**
 * main - main fonction that prints the text
 * Return: 0 if no problem
