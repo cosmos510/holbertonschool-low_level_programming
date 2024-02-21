@@ -5,7 +5,7 @@
 * @c: islower: input character
 * Return: 1 if c alphabetic
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if (c >= 97 && c <= 122)
