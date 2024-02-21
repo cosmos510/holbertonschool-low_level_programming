@@ -1,7 +1,7 @@
 #include "main.h"
 /*  */
 /**
-* _print_sign - main fonction that prints the alphabet
+* print_sign - main fonction that prints the alphabet
 * @n: input number
 * Return: 1 if c alphabetic
 */
