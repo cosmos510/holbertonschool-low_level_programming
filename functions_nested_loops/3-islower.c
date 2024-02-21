@@ -2,8 +2,9 @@
 /*  */
 /**
 * _islower - main fonction that prints the alphabet
+* @c: islower: input character
 * Return: 1 if c lowercase
-* Return: 0 other case
+* 
 */
 int _islower(int c)
 {
