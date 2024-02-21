@@ -1,10 +1,10 @@
-#include "main.c"
+#include "main.h"
 /* Print _putchar */
 /**
 * main - main fonction that prints the alphabet
 * Return: 0 if no problem
 */
-int main(void)
+void print_alphabet(void)
 {
 	char ch;
 
