@@ -1,7 +1,7 @@
 #include "main.h"
 /*  */
 /**
-* _islower - main fonction that prints the alphabet
+* _isalpha - main fonction that prints the alphabet
 * @c: isalpha: input character
 * Return: 1 if c alphabetic
 */
