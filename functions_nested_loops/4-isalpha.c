@@ -2,7 +2,7 @@
 /*  */
 /**
 * _islower - main fonction that prints the alphabet
-* @c: islower: input character
+* @c: isalpha: input character
 * Return: 1 if c alphabetic
 */
 int _isalpha(int c)
