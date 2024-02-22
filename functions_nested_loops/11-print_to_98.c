@@ -1,7 +1,7 @@
 #include "main.h"
 /*  */
 /**
-* print_to_98 fonction that prints the alphabet
+* print_to_98 - fonction that prints the alphabet
 * @n: input number
 * Return: prints all natural numbers from n to 98, followed by a new line.
 */
