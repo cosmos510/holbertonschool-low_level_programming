@@ -16,32 +16,36 @@ void times_table(void)
 		for (multiplicator = 0; multiplicator <= 9; multiplicator++)
 		{
 			result = n * multiplicator;
-			if(multiplicator != 9)
+			if (multiplicator != 9)
 			{
 				if (result > 9)
 				{
+					_putchar(' ');
 					_putchar('0' + result / 10);
 					_putchar('0' + result % 10);
 					_putchar(',');
-					_putchar(' ');
+
 				}
 				if (result <= 9)
 				{
+					_putchar(' ');
+					_putchar(' ');
 					_putchar('0' + result);
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
+
 				}
 			}
 			else
 			{
 				if (result > 9)
 				{
+					_putchar(' ');
 					_putchar('0' + result / 10);
 					_putchar('0' + result % 10);
 				}
 				if (result <= 9)
 				{
+					_putchar(' ');
 					_putchar('0' + result);
 				}
 			}
