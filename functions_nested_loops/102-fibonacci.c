@@ -8,16 +8,15 @@
 int main(void)
 {
 	int i = 0;
-	int number1 = 1;
-	int number2 = 2;
-	long int next_num;
-
-	printf("%d, %d", number1, number2);
-	while (i <= 50)
-	{
+	unsigned long int number1, number2, next_num;
+	number2 = 2;
+	number1 = 1;
+	printf("%ld, %ld", number1, number2);
+	for (; i < 48; i++)
+		{
 		next_num = number1 + number2;
-		printf(", %lu", next_num);
-		i++;
+		printf(", %ld", next_num);
+
 		number1 = number2;
 		number2 = next_num;
 	}
