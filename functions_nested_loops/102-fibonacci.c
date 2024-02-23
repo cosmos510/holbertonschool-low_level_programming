@@ -10,13 +10,13 @@ int main(void)
 	int i = 0;
 	int number1 = 1;
 	int number2 = 2;
-	long long int next_num;
+	long int next_num;
 
 	printf("%d, %d", number1, number2);
 	while (i <= 50)
 	{
 		next_num = number1 + number2;
-		printf(", %llu", next_num);
+		printf(", %lu", next_num);
 		i++;
 		number1 = number2;
 		number2 = next_num;
