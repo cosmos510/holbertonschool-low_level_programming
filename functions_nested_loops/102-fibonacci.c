@@ -11,6 +11,7 @@ int main(void)
 	unsigned long int number1, number2, next_num;
 	number2 = 2;
 	number1 = 1;
+	
 	printf("%ld, %ld", number1, number2);
 	for (; i < 48; i++)
 		{
@@ -19,7 +20,7 @@ int main(void)
 
 		number1 = number2;
 		number2 = next_num;
-	}
+		}
 	printf("\n");
 	return (0);
 }
