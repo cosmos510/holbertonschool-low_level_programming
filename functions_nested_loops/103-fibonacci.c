@@ -10,8 +10,8 @@ int main(void)
 	unsigned long int number1, number2, sum_even;
 	int i = 0;
 
-	number1 = 1;
-	number2 = 2;
+	number1 = 0;
+	number2 = 1;
 
 	while (number1 + number2 <= 4000000)
 		{
