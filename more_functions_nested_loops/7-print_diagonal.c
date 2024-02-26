@@ -1,14 +1,14 @@
 #include "main.h"
 /* */
 /**
-* print_line - main fonction that draws a straight line in the terminal
+* print_diagonal - main fonction that draws a straight line in the terminal
 * @n: number charactere
 */
 void print_diagonal(int n)
 {
 	int len, space;
 
-	if (n >= 0)
+	if (n > 0)
 	{
 		for (len = 0; len < n; len++)
 		{
