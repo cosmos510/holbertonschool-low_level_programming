@@ -1,7 +1,7 @@
 #include "main.h"
 /* */
 /**
-* print_trianngle - main fonction that prints traingle
+* print_triangle - main fonction that prints traingle
 * @size: number charactere
 */
 void print_triangle(int size)
