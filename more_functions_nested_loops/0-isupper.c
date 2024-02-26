@@ -4,7 +4,6 @@
 * _isupper - main fonction that checks for uppercase character.
 * @c: input har
 * Return: 1 if uppercase
-* Return: 0 if not uppercase
 */
 int _isupper(int c)
 {
