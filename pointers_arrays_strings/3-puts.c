@@ -2,7 +2,7 @@
 /* */
 /**
 * _puts - main function that prints a string
-* @str: number cto update the value
+* @str: input 
 */
 void _puts(char *str)
 {
