@@ -2,7 +2,7 @@
 /**
 * print_array - main function that prints half of the string
 * @a: array
-* @n number of elements in array
+* @n: number of elements in array
 */
 void print_array(int *a, int n)
 {
