@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
 * rev_string - main function that prints a string in reverse
 * @s: number to update the value
