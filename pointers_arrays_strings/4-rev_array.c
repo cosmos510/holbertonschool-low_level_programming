@@ -1,18 +1,16 @@
 #include "main.h"
 /**
-* reverse_array - main function that that reverses the
-* content of an array of integers.
+* reverse_array - main function that reverse aray
 * @a: char to reverse
 * @n: number of element in the array
 * Return: diff
 */
 void reverse_array(int *a, int n)
 {
-	int *i, *j;
-	int temp;
+	int *i, *j, temp;
 
 	i = a;
-	j = a + n;
+	j = a + (n - 1);
 
 	while (i < j)
 	{
@@ -22,5 +20,4 @@ void reverse_array(int *a, int n)
 		i++;
 		j--;
 	}
-
 }
