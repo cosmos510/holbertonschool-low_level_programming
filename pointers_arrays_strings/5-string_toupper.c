@@ -3,6 +3,7 @@
 * string_toupper - main function that that changes all
 * lowercase letters of a string to uppercase.
 * @s: char to change
+* Return: string uppercase
 */
 char *string_toupper(char *s)
 {
@@ -14,5 +15,5 @@ char *string_toupper(char *s)
 			s[i] = s[i] - 32;
 		i++;
 	}
-	return(s);
+	return (s);
 }
