@@ -8,7 +8,11 @@ char *cap_string(char *s)
 {
 	int i = 0;
 
-	for (i = 0; s[i] >= 'a' && s[i] <= 'z'; i++)
-		s[i] = s[i] - 32;
+	while(s[i])
+	{
+		if(s[i] == ' ')
+			s[i] = s[i] - 32;
+		i++;
+	}
 	return (s);
 }
