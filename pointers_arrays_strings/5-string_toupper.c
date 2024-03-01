@@ -14,7 +14,7 @@ char *string_toupper(char *s)
 			s[i] = s[i] - 32;
 		i++;
 	}
-	if (s[i] != '\n')
-		s[i] = s[i] +'\n';
+	if (s[i -1] != '\n')
+		s[i] = s[i] + '\n';
 	return (s);
 }
