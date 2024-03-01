@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* my_leet - main function that encodes a string into 1337.
+* mleet - main function that encodes a string into 1337.
 * @s: char to change
-* Return: string uppercase
+* Return: encode sentences
 */
 char *leet(char *s)
 {
