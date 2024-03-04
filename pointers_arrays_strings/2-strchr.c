@@ -21,9 +21,9 @@ char *_strchr(char *s, char c)
 		{
 			temp = s;
 			i++;
-			return(temp);
+			return (temp);
 		}
 		s++;
 	}
-	return(0);
+	return (0);
 }
