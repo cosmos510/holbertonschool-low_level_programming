@@ -5,7 +5,7 @@
 * @dest: Starting address of memory to be filled
 * @src: Value to be filled
 * @n: Number of bytes to be filled starting
-* Return: dest after memcpy
+* Return: dest after _memcpy
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
