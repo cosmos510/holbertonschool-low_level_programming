@@ -1,5 +1,4 @@
 #include "main.h"
-/* */
 /**
 * _memset - main function that  fills memory with a constant byte
 * @s: Starting address of memory to be filled
