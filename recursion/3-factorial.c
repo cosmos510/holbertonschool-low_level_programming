@@ -3,8 +3,8 @@
 /**
 * factorial - main fonction that
 * returns the length of a string
-* @s: input char
-* Return: len
+* @n: number to calcul factoriel
+* Return: factorial
 */
 int factorial(int n)
 {
