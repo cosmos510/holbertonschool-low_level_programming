@@ -13,16 +13,16 @@ int main(int argc, char **argv)
 	int i, next;
 	int add = 0;
 
-	if (argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			for (next = 0; argv[i][next]; next++)
-				if (argv[i][next] < '0' || argv[i][next] > '9')
-					return (printf("Error\n"));
-			add += atoi(argv[i]);
-		}
-		printf("%d\n", add);
+		for (next = 0; argv[i][next]; next++)
+			if (argv[i][next] < '0' || argv[i][next] > '9')
+			{
+				printf("Error\n");
+				return(0);
+			}
+		add += atoi(argv[i]);
 	}
+	printf("%d\n", add);
 	return (0);
 }
