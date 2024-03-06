@@ -21,8 +21,6 @@ int main(int argc, char **argv)
 		}
 		printf("%d\n", add);
 	}
-	if (argc > 2)
-		printf("Error");
 	if (argc <= 2)
 		printf("Error\n");
 	return (0);
