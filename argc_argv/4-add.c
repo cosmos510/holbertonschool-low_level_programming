@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 			if (argv[i][next] < '0' || argv[i][next] > '9')
 			{
 				printf("Error\n");
-				return(0);
+				return (0);
 			}
 		add += atoi(argv[i]);
 	}
