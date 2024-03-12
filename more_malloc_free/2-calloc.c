@@ -1,4 +1,5 @@
 #include "main.h"
+char *_memset(char *s, char b, unsigned int n);
 /* */
 /**
 * _calloc - function that allocates memory for an array,
@@ -20,5 +21,20 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (ptr == NULL)
 		return (NULL);
+	if (ptr != NULL)
+		_memset(ptr, 0, tot_size);
 	return (ptr);
+}
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	char *temp = s;
+
+	while (n > 0)
+	{
+		*temp = b;
+		temp++;
+		n--;
+	}
+	return (s);
 }
