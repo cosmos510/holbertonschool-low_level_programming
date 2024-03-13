@@ -20,6 +20,7 @@ void print_dog(struct dog *d)
 	{
 		puts("Name: (nil)\n");
 		printf("Age: %.6f\n", d->age);
+		puts("Owner: (nil)\n");
 	}
 
 }
