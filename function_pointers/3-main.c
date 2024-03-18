@@ -19,6 +19,12 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
+	
+	if (get_op_func(operation) == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
 	printf("%d\n", get_op_func(operation)(num1, num2));
 	return (0);
 }
