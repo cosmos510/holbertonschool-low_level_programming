@@ -21,7 +21,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			count += i;
 			return (count);
 		}
-
 	}
 	return (-1);
 }
