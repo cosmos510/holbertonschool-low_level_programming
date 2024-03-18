@@ -2,9 +2,9 @@
 /* */
 /**
 * _puts - main function that prints a string
-* @str: input 
+* @str: input
 */
-void _puts(char *str)
+/*void _puts(char *str)
 {
 	int len = 0;
 
@@ -14,4 +14,15 @@ void _puts(char *str)
 		len++;
 	}
 	_putchar('\n');
+}
+*/
+void _puts(char *str)
+{
+	if (*str == 0)
+		_putchar('\n');
+	else
+	{
+		_putchar(*str);
+    	_puts(str + 1);
+	}
 }

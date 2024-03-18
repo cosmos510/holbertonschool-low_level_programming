@@ -4,6 +4,7 @@
 * print_rev - main function that prints a string in reverse
 * @s: number cto update the value
 */
+/*
 void print_rev(char *s)
 {
 	int len = 0;
@@ -19,4 +20,18 @@ void print_rev(char *s)
 	_putchar('\n');
 
 
+}
+*/
+
+
+
+void print_rev(char *s)
+{
+	int i;
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		print_rev(s);
+		_putchar(*s);
+	}
+	_putchar('\n');
 }

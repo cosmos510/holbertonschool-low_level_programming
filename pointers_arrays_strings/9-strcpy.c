@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strcpy - main function that prints half of the string
+* _strcpy - main function that copy string
 * @dest: destination to copy
 * @src: source
 * Return: dest
