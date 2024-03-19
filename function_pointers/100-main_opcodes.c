@@ -26,9 +26,11 @@ int main(int argc, char *argv[])
 	}
 	tmp = (unsigned char *)main;
 
-	for (i = 0; i < n_bytes; i++)
+	while (i < n_bytes)
 	{
 		printf("%02hhx ", tmp[i]);
+		i++;
 	}
 	printf("%hhx\n", tmp[i]);
+	return (0);
 }
