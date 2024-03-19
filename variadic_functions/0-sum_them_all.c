@@ -12,7 +12,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_list ptr;
 
 	if (n == 0)
-		return(0);
+		return (0);
 
 	va_start(ptr, n);
 
@@ -22,5 +22,5 @@ int sum_them_all(const unsigned int n, ...)
 		i++;
 	}
 	va_end(ptr);
-	return(sum);
+	return (sum);
 }
