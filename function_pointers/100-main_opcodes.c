@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	}
 	tmp = (unsigned char *)main;
 
-	while (i < n_bytes)
+	while (i < (n_bytes - 1))
 	{
 		printf("%02hhx ", tmp[i]);
 		i++;
