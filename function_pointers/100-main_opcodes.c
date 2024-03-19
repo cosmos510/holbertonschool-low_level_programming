@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int n_bytes, i = 0;
-	char *tmp;
+	unsigned char *tmp;
 
 	if (argc != 2)
 	{
@@ -24,12 +24,11 @@ int main(int argc, char *argv[])
 		printf("Error");
 		exit(2);
 	}
-	tmp = (char*)main;
+	tmp = (unsigned char *)main;
 
-	while (i < n_bytes)
+	for (i = 0; i < n_bytes; i++)
 	{
-		printf("%02x ", tmp[i]);
-		i++;
+		printf("%02hhx ", tmp[i]);
 	}
 	printf("\n");
 }
