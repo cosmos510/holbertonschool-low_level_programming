@@ -30,5 +30,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%02hhx ", tmp[i]);
 	}
-	printf("\n");
+	printf("%hhx\n", tmp[i]);
 }
