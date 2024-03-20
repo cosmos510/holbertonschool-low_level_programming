@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 	if (n_bytes < 0)
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(2);
 	}
 	tmp = (unsigned char *)main;
