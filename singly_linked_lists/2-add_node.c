@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* add_node - that returns the number of elements in a linked list_t list.
+* add_node - add new node at the beginning of the list
 * @head: Pointer to the head of the linked list.
 * @str: char to add at the beggining of the linked list
 * Return: The adress of the new element if no problem
@@ -15,7 +15,10 @@ list_t *add_node(list_t **head, const char *str)
 	new_node = malloc(sizeof(list_t));
 
 	if (new_node == NULL)
+	{
 		return (NULL);
+		free(new_node);
+	}
 	if (str == NULL)
 		return (NULL);
 
