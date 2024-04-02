@@ -1,6 +1,5 @@
 #include "lists.h"
 
-/* */
 /**
 * print_list - fonction that that prints all the elements of a list_t list.
 * @h: Pointer to the head of the linked list.
