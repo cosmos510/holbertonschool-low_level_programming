@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * get_bit - that returns the value of a bit at a given index.
- * @n: number to transform to binary
+ * @n: number given
  * @index: index to return the bit
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
  *         Otherwise - the converted number.
