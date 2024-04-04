@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 
 	for (i = num_bits - 1; i >= 0; i--)
 	{
-		mask = 1 << i;
+		mask = (unsigned long int)1 << i;
 		if (n & mask)
 		{
 			_putchar(0 + '1');
@@ -27,5 +27,6 @@ void print_binary(unsigned long int n)
 		}
 	}
 	if (!significant_bits_found)
-		_putchar(0 + '0');
+	_putchar(0 + '0');
 }
+
