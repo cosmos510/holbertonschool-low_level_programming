@@ -7,26 +7,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i;
-	unsigned long int mask;
-	int num_bits = sizeof(int) * 8;
-	int significant_bits_found = 0;
+	if (n > 1)
+		print_binary(n >> 1);
 
-	for (i = num_bits - 1; i >= 0; i--)
-	{
-		mask = 1 << i;
-		if (n & mask)
-		{
-			_putchar(0 + '1');
-			significant_bits_found = 1;
-		}
-		else
-		{
-			if (significant_bits_found)
-				_putchar(0 + '0');
-		}
-	}
-	if (!significant_bits_found)
-	_putchar(0 + '0');
+	_putchar((n & 1) + '0');
 }
 
