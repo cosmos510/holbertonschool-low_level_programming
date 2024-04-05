@@ -48,5 +48,10 @@ int main(int argc, char **argv)
 		}
 	}
 	close(o), close(to);
+	if (close(o) == -1 || close(to))
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", argv[2]);
+		exit(100);
+	}
 	return (0);
 }
