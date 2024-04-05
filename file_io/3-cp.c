@@ -1,5 +1,22 @@
 #include"main.h"
 /**
+ * close_file - Closes file descriptors.
+ * @fd: The file descriptor to be closed.
+ */
+void close_file(int fd)
+{
+	int c;
+
+	c = close(fd);
+
+	if (c == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+		exit(100);
+	}
+}
+
+/**
  * main - Copies the contents of a file to another file.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
@@ -38,16 +55,16 @@ int main(int argc, char **argv)
 	}
 	while (r > 0)
 	{
+		w = write(to, buffer, r);
 		r = read(o, buffer, 1024);
 		to = open(argv[2], O_WRONLY | O_APPEND);
-		w = write(to, buffer, r);
 		if (w == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 	}
-	close(o), close(to);
+	close_file(o), close_file(to);
 
 	return (0);
 }
